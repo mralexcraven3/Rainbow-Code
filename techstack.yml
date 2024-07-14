@@ -1,0 +1,143 @@
+repo_name: mralexcraven3/Rainbow-Code
+report_id: ed0d9abe8b5c8dd54cf14e17593d31ad
+version: 0.1
+repo_type: Public
+timestamp: '2024-07-14T00:40:02+00:00'
+requested_by: shiffman
+provider: github
+branch: master
+detected_tools_count: 10
+tools:
+- name: GLSL
+  description: A high-level C-style language
+  website_url: https://www.khronos.org/opengl/wiki/Core_Language_(GLSL)
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6548/default_a66025fbe8f221c489bdaac3a99d84e5f138cbbd.png
+  detection_source_url: https://github.com/mralexcraven3/Rainbow-Code
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/mralexcraven3/Rainbow-Code
+  detection_source: Repo Metadata
+- name: Processing
+  description: A programming language for people who want to program images, animation,
+    and interactions for the web.
+  website_url: http://processingjs.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6474/pjs_400x400.jpg
+  detection_source_url: https://github.com/mralexcraven3/Rainbow-Code
+  detection_source: Repo Metadata
+- name: ExpressJS
+  description: Sinatra inspired web development framework for node.js -- insanely
+    fast, flexible, and simple
+  website_url: http://expressjs.com/
+  version: 4.13.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/1163/hashtag.png
+  detection_source_url: https://github.com/mralexcraven3/Rainbow-Code/blob/master/sockets/package.json
+  detection_source: sockets/package.json
+  last_updated_by: Daniel Shiffman
+  last_updated_on: 2016-04-13 16:28:41.000000000 Z
+- name: Socket.IO
+  description: Realtime application framework (Node.JS server)
+  website_url: http://socket.io/
+  version: 1.4.5
+  open_source: true
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Realtime Backend / API
+  image_url: https://img.stackshare.io/service/1161/vI0ZZlhZ_400x400.png
+  detection_source_url: https://github.com/mralexcraven3/Rainbow-Code/blob/master/sockets/package.json
+  detection_source: sockets/package.json
+  last_updated_by: Daniel Shiffman
+  last_updated_on: 2016-04-13 16:28:41.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/mralexcraven3/Rainbow-Code
+  detection_source: Repo Metadata
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/mralexcraven3/Rainbow-Code/blob/master/sockets/package.json
+  detection_source: sockets/package.json
+  last_updated_by: Daniel Shiffman
+  last_updated_on: 2016-04-13 16:28:41.000000000 Z
+- name: Twitter API
+  description: Build bots that communicate smartly.
+  website_url: https://twitter.com/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/2466/twitterdev_gear.png
+  detection_source_url: https://github.com/mralexcraven3/Rainbow-Code/blob/master/bots/node2/package.json
+  detection_source: bots/node2/package.json
+  last_updated_by: Daniel Shiffman
+  last_updated_on: 2015-11-15 13:59:24.000000000 Z
+- name: express
+  description: Fast, unopinionated, minimalist web framework
+  package_url: https://www.npmjs.com/express
+  version: 4.13.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15818/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/mralexcraven3/Rainbow-Code/blob/master/sockets/package.json
+  detection_source: sockets/package.json
+  last_updated_by: Daniel Shiffman
+  last_updated_on: 2016-04-13 16:28:41.000000000 Z
+  vulnerabilities:
+  - name: qs vulnerable to Prototype Pollution
+    cve_id: CVE-2022-24999
+    cve_url: https://github.com/advisories/GHSA-hrpp-h998-j3pp
+    detected_date: Dec 7
+    severity: high
+    first_patched: 4.17.3
+  - name: Express.js Open Redirect in malformed URLs
+    cve_id: CVE-2024-29041
+    cve_url: https://github.com/advisories/GHSA-rv95-896h-c2vc
+    detected_date: Mar 26
+    severity: moderate
+    first_patched: 4.19.2
+- name: twit
+  description: Twitter API client for node
+  package_url: https://www.npmjs.com/twit
+  version: 2.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18372/default_6da9f8de2035c7ad69ecf412df9fe80b73f9797a.png
+  detection_source_url: https://github.com/mralexcraven3/Rainbow-Code/blob/master/bots/node2/package.json
+  detection_source: bots/node2/package.json
+  last_updated_by: Daniel Shiffman
+  last_updated_on: 2015-11-15 13:59:24.000000000 Z
